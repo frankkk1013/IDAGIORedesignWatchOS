@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8D7D7527621A9800B92047 /* IDAGIO WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FB8D7D7427621A9800B92047 /* IDAGIO WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB8D7D7A27621A9900B92047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7D7927621A9900B92047 /* Assets.xcassets */; };
+		FB8D7D8027621A9900B92047 /* IDAGIO WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FB8D7D7F27621A9900B92047 /* IDAGIO WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB8D7D8527621A9900B92047 /* IDAGIOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7D8427621A9900B92047 /* IDAGIOApp.swift */; };
+		FB8D7D8727621A9900B92047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7D8627621A9900B92047 /* ContentView.swift */; };
+		FB8D7D8927621A9900B92047 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7D8827621A9900B92047 /* NotificationController.swift */; };
+		FB8D7D8B27621A9900B92047 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7D8A27621A9900B92047 /* NotificationView.swift */; };
+		FB8D7D8D27621A9900B92047 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7D8C27621A9900B92047 /* ComplicationController.swift */; };
+		FB8D7D8F27621A9900B92047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7D8E27621A9900B92047 /* Assets.xcassets */; };
+		FB8D7D9227621A9900B92047 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7D9127621A9900B92047 /* Preview Assets.xcassets */; };
+		FB8D7D9E27621A9900B92047 /* IDAGIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7D9D27621A9900B92047 /* IDAGIOTests.swift */; };
+		FB8D7DA827621A9900B92047 /* IDAGIOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7DA727621A9900B92047 /* IDAGIOUITests.swift */; };
+		FB8D7DAA27621A9900B92047 /* IDAGIOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7DA927621A9900B92047 /* IDAGIOUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB8D7D7627621A9800B92047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8D7D6A27621A9800B92047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8D7D7327621A9800B92047;
+			remoteInfo = "IDAGIO WatchKit App";
+		};
+		FB8D7D8127621A9900B92047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8D7D6A27621A9800B92047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8D7D7E27621A9900B92047;
+			remoteInfo = "IDAGIO WatchKit Extension";
+		};
+		FB8D7D9A27621A9900B92047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8D7D6A27621A9800B92047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8D7D7E27621A9900B92047;
+			remoteInfo = "IDAGIO WatchKit Extension";
+		};
+		FB8D7DA427621A9900B92047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8D7D6A27621A9800B92047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8D7D7327621A9800B92047;
+			remoteInfo = "IDAGIO WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB8D7DB027621A9900B92047 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB8D7D8027621A9900B92047 /* IDAGIO WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D7DB427621A9900B92047 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FB8D7D7527621A9800B92047 /* IDAGIO WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB8D7D7027621A9800B92047 /* IDAGIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDAGIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8D7D7427621A9800B92047 /* IDAGIO WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDAGIO WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8D7D7927621A9900B92047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8D7D7F27621A9900B92047 /* IDAGIO WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IDAGIO WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8D7D8427621A9900B92047 /* IDAGIOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDAGIOApp.swift; sourceTree = "<group>"; };
+		FB8D7D8627621A9900B92047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB8D7D8827621A9900B92047 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FB8D7D8A27621A9900B92047 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		FB8D7D8C27621A9900B92047 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		FB8D7D8E27621A9900B92047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8D7D9127621A9900B92047 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB8D7D9327621A9900B92047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8D7D9427621A9900B92047 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FB8D7D9927621A9900B92047 /* IDAGIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDAGIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8D7D9D27621A9900B92047 /* IDAGIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDAGIOTests.swift; sourceTree = "<group>"; };
+		FB8D7DA327621A9900B92047 /* IDAGIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDAGIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8D7DA727621A9900B92047 /* IDAGIOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDAGIOUITests.swift; sourceTree = "<group>"; };
+		FB8D7DA927621A9900B92047 /* IDAGIOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDAGIOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8D7D7C27621A9900B92047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D7D9627621A9900B92047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D7DA027621A9900B92047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8D7D6927621A9800B92047 = {
+			isa = PBXGroup;
+			children = (
+				FB8D7D7827621A9800B92047 /* IDAGIO WatchKit App */,
+				FB8D7D8327621A9900B92047 /* IDAGIO WatchKit Extension */,
+				FB8D7D9C27621A9900B92047 /* IDAGIOTests */,
+				FB8D7DA627621A9900B92047 /* IDAGIOUITests */,
+				FB8D7D7127621A9800B92047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8D7D7127621A9800B92047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D7D7027621A9800B92047 /* IDAGIO.app */,
+				FB8D7D7427621A9800B92047 /* IDAGIO WatchKit App.app */,
+				FB8D7D7F27621A9900B92047 /* IDAGIO WatchKit Extension.appex */,
+				FB8D7D9927621A9900B92047 /* IDAGIOTests.xctest */,
+				FB8D7DA327621A9900B92047 /* IDAGIOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8D7D7827621A9800B92047 /* IDAGIO WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D7D7927621A9900B92047 /* Assets.xcassets */,
+			);
+			path = "IDAGIO WatchKit App";
+			sourceTree = "<group>";
+		};
+		FB8D7D8327621A9900B92047 /* IDAGIO WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D7D8427621A9900B92047 /* IDAGIOApp.swift */,
+				FB8D7D8627621A9900B92047 /* ContentView.swift */,
+				FB8D7D8827621A9900B92047 /* NotificationController.swift */,
+				FB8D7D8A27621A9900B92047 /* NotificationView.swift */,
+				FB8D7D8C27621A9900B92047 /* ComplicationController.swift */,
+				FB8D7D8E27621A9900B92047 /* Assets.xcassets */,
+				FB8D7D9327621A9900B92047 /* Info.plist */,
+				FB8D7D9427621A9900B92047 /* PushNotificationPayload.apns */,
+				FB8D7D9027621A9900B92047 /* Preview Content */,
+			);
+			path = "IDAGIO WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FB8D7D9027621A9900B92047 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D7D9127621A9900B92047 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB8D7D9C27621A9900B92047 /* IDAGIOTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D7D9D27621A9900B92047 /* IDAGIOTests.swift */,
+			);
+			path = IDAGIOTests;
+			sourceTree = "<group>";
+		};
+		FB8D7DA627621A9900B92047 /* IDAGIOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D7DA727621A9900B92047 /* IDAGIOUITests.swift */,
+				FB8D7DA927621A9900B92047 /* IDAGIOUITestsLaunchTests.swift */,
+			);
+			path = IDAGIOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8D7D6F27621A9800B92047 /* IDAGIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8D7DB527621A9900B92047 /* Build configuration list for PBXNativeTarget "IDAGIO" */;
+			buildPhases = (
+				FB8D7D6E27621A9800B92047 /* Resources */,
+				FB8D7DB427621A9900B92047 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8D7D7727621A9800B92047 /* PBXTargetDependency */,
+			);
+			name = IDAGIO;
+			productName = IDAGIO;
+			productReference = FB8D7D7027621A9800B92047 /* IDAGIO.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		FB8D7D7327621A9800B92047 /* IDAGIO WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8D7DB127621A9900B92047 /* Build configuration list for PBXNativeTarget "IDAGIO WatchKit App" */;
+			buildPhases = (
+				FB8D7D7227621A9800B92047 /* Resources */,
+				FB8D7DB027621A9900B92047 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8D7D8227621A9900B92047 /* PBXTargetDependency */,
+			);
+			name = "IDAGIO WatchKit App";
+			productName = "IDAGIO WatchKit App";
+			productReference = FB8D7D7427621A9800B92047 /* IDAGIO WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FB8D7D7E27621A9900B92047 /* IDAGIO WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8D7DAD27621A9900B92047 /* Build configuration list for PBXNativeTarget "IDAGIO WatchKit Extension" */;
+			buildPhases = (
+				FB8D7D7B27621A9900B92047 /* Sources */,
+				FB8D7D7C27621A9900B92047 /* Frameworks */,
+				FB8D7D7D27621A9900B92047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IDAGIO WatchKit Extension";
+			productName = "IDAGIO WatchKit Extension";
+			productReference = FB8D7D7F27621A9900B92047 /* IDAGIO WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		FB8D7D9827621A9900B92047 /* IDAGIOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8D7DB827621A9900B92047 /* Build configuration list for PBXNativeTarget "IDAGIOTests" */;
+			buildPhases = (
+				FB8D7D9527621A9900B92047 /* Sources */,
+				FB8D7D9627621A9900B92047 /* Frameworks */,
+				FB8D7D9727621A9900B92047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8D7D9B27621A9900B92047 /* PBXTargetDependency */,
+			);
+			name = IDAGIOTests;
+			productName = IDAGIOTests;
+			productReference = FB8D7D9927621A9900B92047 /* IDAGIOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB8D7DA227621A9900B92047 /* IDAGIOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8D7DBB27621A9900B92047 /* Build configuration list for PBXNativeTarget "IDAGIOUITests" */;
+			buildPhases = (
+				FB8D7D9F27621A9900B92047 /* Sources */,
+				FB8D7DA027621A9900B92047 /* Frameworks */,
+				FB8D7DA127621A9900B92047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8D7DA527621A9900B92047 /* PBXTargetDependency */,
+			);
+			name = IDAGIOUITests;
+			productName = IDAGIOUITests;
+			productReference = FB8D7DA327621A9900B92047 /* IDAGIOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8D7D6A27621A9800B92047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FB8D7D6F27621A9800B92047 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FB8D7D7327621A9800B92047 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FB8D7D7E27621A9900B92047 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FB8D7D9827621A9900B92047 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FB8D7D7E27621A9900B92047;
+					};
+					FB8D7DA227621A9900B92047 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FB8D7D7327621A9800B92047;
+					};
+				};
+			};
+			buildConfigurationList = FB8D7D6D27621A9800B92047 /* Build configuration list for PBXProject "IDAGIO" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8D7D6927621A9800B92047;
+			productRefGroup = FB8D7D7127621A9800B92047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8D7D6F27621A9800B92047 /* IDAGIO */,
+				FB8D7D7327621A9800B92047 /* IDAGIO WatchKit App */,
+				FB8D7D7E27621A9900B92047 /* IDAGIO WatchKit Extension */,
+				FB8D7D9827621A9900B92047 /* IDAGIOTests */,
+				FB8D7DA227621A9900B92047 /* IDAGIOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8D7D6E27621A9800B92047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D7D7227621A9800B92047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8D7D7A27621A9900B92047 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D7D7D27621A9900B92047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8D7D9227621A9900B92047 /* Preview Assets.xcassets in Resources */,
+				FB8D7D8F27621A9900B92047 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D7D9727621A9900B92047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D7DA127621A9900B92047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8D7D7B27621A9900B92047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8D7D8927621A9900B92047 /* NotificationController.swift in Sources */,
+				FB8D7D8727621A9900B92047 /* ContentView.swift in Sources */,
+				FB8D7D8D27621A9900B92047 /* ComplicationController.swift in Sources */,
+				FB8D7D8527621A9900B92047 /* IDAGIOApp.swift in Sources */,
+				FB8D7D8B27621A9900B92047 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D7D9527621A9900B92047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8D7D9E27621A9900B92047 /* IDAGIOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D7D9F27621A9900B92047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8D7DA827621A9900B92047 /* IDAGIOUITests.swift in Sources */,
+				FB8D7DAA27621A9900B92047 /* IDAGIOUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB8D7D7727621A9800B92047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8D7D7327621A9800B92047 /* IDAGIO WatchKit App */;
+			targetProxy = FB8D7D7627621A9800B92047 /* PBXContainerItemProxy */;
+		};
+		FB8D7D8227621A9900B92047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8D7D7E27621A9900B92047 /* IDAGIO WatchKit Extension */;
+			targetProxy = FB8D7D8127621A9900B92047 /* PBXContainerItemProxy */;
+		};
+		FB8D7D9B27621A9900B92047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8D7D7E27621A9900B92047 /* IDAGIO WatchKit Extension */;
+			targetProxy = FB8D7D9A27621A9900B92047 /* PBXContainerItemProxy */;
+		};
+		FB8D7DA527621A9900B92047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8D7D7327621A9800B92047 /* IDAGIO WatchKit App */;
+			targetProxy = FB8D7DA427621A9900B92047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB8D7DAB27621A9900B92047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB8D7DAC27621A9900B92047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8D7DAE27621A9900B92047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IDAGIO WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = C598U6DJ3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IDAGIO WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "IDAGIO WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francesco.IDAGIO.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		FB8D7DAF27621A9900B92047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IDAGIO WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = C598U6DJ3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IDAGIO WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "IDAGIO WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francesco.IDAGIO.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		FB8D7DB227621A9900B92047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C598U6DJ3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = IDAGIO_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "IDAGIO WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francesco.IDAGIO.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		FB8D7DB327621A9900B92047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C598U6DJ3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = IDAGIO_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "IDAGIO WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francesco.IDAGIO.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		FB8D7DB627621A9900B92047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C598U6DJ3G;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francesco.IDAGIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB8D7DB727621A9900B92047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C598U6DJ3G;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francesco.IDAGIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FB8D7DB927621A9900B92047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C598U6DJ3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francesco.IDAGIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDAGIO WatchKit Extension.appex/IDAGIO WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		FB8D7DBA27621A9900B92047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C598U6DJ3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francesco.IDAGIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDAGIO WatchKit Extension.appex/IDAGIO WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		FB8D7DBC27621A9900B92047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C598U6DJ3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francesco.IDAGIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "IDAGIO WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		FB8D7DBD27621A9900B92047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C598U6DJ3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = francesco.IDAGIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "IDAGIO WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8D7D6D27621A9800B92047 /* Build configuration list for PBXProject "IDAGIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8D7DAB27621A9900B92047 /* Debug */,
+				FB8D7DAC27621A9900B92047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8D7DAD27621A9900B92047 /* Build configuration list for PBXNativeTarget "IDAGIO WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8D7DAE27621A9900B92047 /* Debug */,
+				FB8D7DAF27621A9900B92047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8D7DB127621A9900B92047 /* Build configuration list for PBXNativeTarget "IDAGIO WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8D7DB227621A9900B92047 /* Debug */,
+				FB8D7DB327621A9900B92047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8D7DB527621A9900B92047 /* Build configuration list for PBXNativeTarget "IDAGIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8D7DB627621A9900B92047 /* Debug */,
+				FB8D7DB727621A9900B92047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8D7DB827621A9900B92047 /* Build configuration list for PBXNativeTarget "IDAGIOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8D7DB927621A9900B92047 /* Debug */,
+				FB8D7DBA27621A9900B92047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8D7DBB27621A9900B92047 /* Build configuration list for PBXNativeTarget "IDAGIOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8D7DBC27621A9900B92047 /* Debug */,
+				FB8D7DBD27621A9900B92047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB8D7D6A27621A9800B92047 /* Project object */;
+}
