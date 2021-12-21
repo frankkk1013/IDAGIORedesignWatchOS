@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct IDAGIOApp: App {
+    
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {

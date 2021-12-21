@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19455" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19454"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="fRD-1l-P1O">
+            <objects>
+                <controller id="IGi-cB-aGO">
+                    <items>
+                        <table alignment="left" id="mDh-10-cvU">
+                            <items>
+                                <tableRow id="yaL-Qp-c0C">
+                                    <group key="rootItem" width="1" alignment="left" id="xF1-M9-vFo">
+                                        <items>
+                                            <imageView width="29" height="25" alignment="left" verticalAlignment="center" image="noun-moon-1349117" contentMode="scaleAspectFit" id="WfA-JN-973">
+                                                <variation key="device=watch44mm" width="29"/>
+                                            </imageView>
+                                            <label alignment="left" verticalAlignment="center" text="Label" textAlignment="right" id="Ipa-qC-EXH">
+                                                <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-16" y="-16"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="noun-moon-1349117" width="386" height="370"/>
+    </resources>
+</document>

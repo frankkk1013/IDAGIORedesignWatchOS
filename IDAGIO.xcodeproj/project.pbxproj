@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB82CA0827690D2E00A920C9 /* etude.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB82CA0727690D2E00A920C9 /* etude.mp3 */; };
 		FB8D7D7527621A9800B92047 /* IDAGIO WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FB8D7D7427621A9800B92047 /* IDAGIO WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FB8D7D7A27621A9900B92047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7D7927621A9900B92047 /* Assets.xcassets */; };
 		FB8D7D8027621A9900B92047 /* IDAGIO WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FB8D7D7F27621A9900B92047 /* IDAGIO WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -20,6 +21,11 @@
 		FB8D7D9E27621A9900B92047 /* IDAGIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7D9D27621A9900B92047 /* IDAGIOTests.swift */; };
 		FB8D7DA827621A9900B92047 /* IDAGIOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7DA727621A9900B92047 /* IDAGIOUITests.swift */; };
 		FB8D7DAA27621A9900B92047 /* IDAGIOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7DA927621A9900B92047 /* IDAGIOUITestsLaunchTests.swift */; };
+		FB8D7DC927627A6500B92047 /* noun-vinyl.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7DC827627A6500B92047 /* noun-vinyl.png */; };
+		FB8D7DCB27627C3E00B92047 /* noun-signals.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7DCA27627C3E00B92047 /* noun-signals.png */; };
+		FB8D7DCD27627C4B00B92047 /* noun-moon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7DCC27627C4B00B92047 /* noun-moon.png */; };
+		FB8D7DD127627FDD00B92047 /* image-3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7DD027627FDD00B92047 /* image-3.png */; };
+		FB8D7DD32762887C00B92047 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7DD22762887C00B92047 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +85,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB82CA0727690D2E00A920C9 /* etude.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = etude.mp3; sourceTree = "<group>"; };
 		FB8D7D7027621A9800B92047 /* IDAGIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDAGIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8D7D7427621A9800B92047 /* IDAGIO WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDAGIO WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8D7D7927621A9900B92047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,6 +104,11 @@
 		FB8D7DA327621A9900B92047 /* IDAGIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDAGIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8D7DA727621A9900B92047 /* IDAGIOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDAGIOUITests.swift; sourceTree = "<group>"; };
 		FB8D7DA927621A9900B92047 /* IDAGIOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDAGIOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB8D7DC827627A6500B92047 /* noun-vinyl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun-vinyl.png"; sourceTree = "<group>"; };
+		FB8D7DCA27627C3E00B92047 /* noun-signals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun-signals.png"; sourceTree = "<group>"; };
+		FB8D7DCC27627C4B00B92047 /* noun-moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun-moon.png"; sourceTree = "<group>"; };
+		FB8D7DD027627FDD00B92047 /* image-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-3.png"; sourceTree = "<group>"; };
+		FB8D7DD22762887C00B92047 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +170,11 @@
 		FB8D7D8327621A9900B92047 /* IDAGIO WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				FB82CA0727690D2E00A920C9 /* etude.mp3 */,
+				FB8D7DD027627FDD00B92047 /* image-3.png */,
+				FB8D7DCC27627C4B00B92047 /* noun-moon.png */,
+				FB8D7DCA27627C3E00B92047 /* noun-signals.png */,
+				FB8D7DC827627A6500B92047 /* noun-vinyl.png */,
 				FB8D7D8427621A9900B92047 /* IDAGIOApp.swift */,
 				FB8D7D8627621A9900B92047 /* ContentView.swift */,
 				FB8D7D8827621A9900B92047 /* NotificationController.swift */,
@@ -167,6 +184,7 @@
 				FB8D7D9327621A9900B92047 /* Info.plist */,
 				FB8D7D9427621A9900B92047 /* PushNotificationPayload.apns */,
 				FB8D7D9027621A9900B92047 /* Preview Content */,
+				FB8D7DD22762887C00B92047 /* Player.swift */,
 			);
 			path = "IDAGIO WatchKit Extension";
 			sourceTree = "<group>";
@@ -357,8 +375,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB82CA0827690D2E00A920C9 /* etude.mp3 in Resources */,
 				FB8D7D9227621A9900B92047 /* Preview Assets.xcassets in Resources */,
+				FB8D7DC927627A6500B92047 /* noun-vinyl.png in Resources */,
+				FB8D7DCB27627C3E00B92047 /* noun-signals.png in Resources */,
+				FB8D7DCD27627C4B00B92047 /* noun-moon.png in Resources */,
 				FB8D7D8F27621A9900B92047 /* Assets.xcassets in Resources */,
+				FB8D7DD127627FDD00B92047 /* image-3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +410,7 @@
 				FB8D7D8727621A9900B92047 /* ContentView.swift in Sources */,
 				FB8D7D8D27621A9900B92047 /* ComplicationController.swift in Sources */,
 				FB8D7D8527621A9900B92047 /* IDAGIOApp.swift in Sources */,
+				FB8D7DD32762887C00B92047 /* Player.swift in Sources */,
 				FB8D7D8B27621A9900B92047 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,7 +584,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IDAGIO WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "IDAGIO WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = IDAGIO_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -592,7 +616,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IDAGIO WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "IDAGIO WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = IDAGIO_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
