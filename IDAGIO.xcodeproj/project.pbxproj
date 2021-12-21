@@ -24,7 +24,6 @@
 		FB8D7DC927627A6500B92047 /* noun-vinyl.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7DC827627A6500B92047 /* noun-vinyl.png */; };
 		FB8D7DCB27627C3E00B92047 /* noun-signals.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7DCA27627C3E00B92047 /* noun-signals.png */; };
 		FB8D7DCD27627C4B00B92047 /* noun-moon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7DCC27627C4B00B92047 /* noun-moon.png */; };
-		FB8D7DD127627FDD00B92047 /* image-3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D7DD027627FDD00B92047 /* image-3.png */; };
 		FB8D7DD32762887C00B92047 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D7DD22762887C00B92047 /* Player.swift */; };
 /* End PBXBuildFile section */
 
@@ -107,7 +106,6 @@
 		FB8D7DC827627A6500B92047 /* noun-vinyl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun-vinyl.png"; sourceTree = "<group>"; };
 		FB8D7DCA27627C3E00B92047 /* noun-signals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun-signals.png"; sourceTree = "<group>"; };
 		FB8D7DCC27627C4B00B92047 /* noun-moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun-moon.png"; sourceTree = "<group>"; };
-		FB8D7DD027627FDD00B92047 /* image-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-3.png"; sourceTree = "<group>"; };
 		FB8D7DD22762887C00B92047 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,7 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				FB82CA0727690D2E00A920C9 /* etude.mp3 */,
-				FB8D7DD027627FDD00B92047 /* image-3.png */,
 				FB8D7DCC27627C4B00B92047 /* noun-moon.png */,
 				FB8D7DCA27627C3E00B92047 /* noun-signals.png */,
 				FB8D7DC827627A6500B92047 /* noun-vinyl.png */,
@@ -381,7 +378,6 @@
 				FB8D7DCB27627C3E00B92047 /* noun-signals.png in Resources */,
 				FB8D7DCD27627C4B00B92047 /* noun-moon.png in Resources */,
 				FB8D7D8F27621A9900B92047 /* Assets.xcassets in Resources */,
-				FB8D7DD127627FDD00B92047 /* image-3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
