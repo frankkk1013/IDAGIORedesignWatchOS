@@ -81,7 +81,7 @@ struct ContentView: View {
             
             
         }
-        .navigationBarTitle(Text("Playlist"))
+        .navigationBarTitle(Text("Playlists"))
         .navigationBarBackButtonHidden(false)
         .navigationBarTitleDisplayMode(.inline)
         
