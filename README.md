@@ -1,5 +1,6 @@
 # IDAGIORedesignWatchOS
-I redesigned the IDAGIO WatchOS app as an exercise
+I redesigned the IDAGIO WatchOS app as an exercise.
+More information : https://medium.com/@Francescoj/redesign-an-app-for-watchos-ee9adc1d7913
 
 ## Old App design
 <div>
